@@ -1,0 +1,225 @@
+{
+  "botname": "Justine Bot",
+  "description": "The bot you're looking at has been developed using Node.js and is hosted on Replit. It's been built using the fca-unofficial library to interact with Facebook. It has a 30 seconds cooldown period to prevent spamming and ensure that the bot is used responsibly.",
+  "prefix": "/",
+  "botdev": "Justine Agcanas",
+  "botowner": [
+    "Justine Agcanas"
+  ],
+  "botcredits": [
+    "Salvador",
+    "Jean"
+  ],
+  "botadmins": [
+    "100012826661680",
+    "100080985141972",
+    "100027100503432"
+  ],
+  "approvedThread": [
+    "100012826661680",
+    "4575973732504518",
+    "6846114565401266",
+    "3894369214017003",
+    "4168499269905657",
+    "4381563578524730"
+  ],
+  "vipThread":[
+    "4575973732504518",
+    "6846114565401266",
+    "3894369214017003"
+  ],
+  "basic": [
+    "100073932706797",
+    "100054877356370",
+    "100015827858913",
+    "100026922728144",
+    "100072757897854"
+    ],
+  "vip": [
+    "100012826661680",
+    "100080985141972",
+    "100027100503432",
+    "100007909449910",
+    "100017375410153",
+    "100010066387203"
+  ],
+  "ibasic": [
+    {
+      "user": {
+        "id": "100073932706797",
+        "validity": "4/2/2023",
+        "name": "dummy"
+      }
+    },
+    {
+      "user": {
+        "id": "100054877356370",
+        "validity": "4/2/2023",
+        "name": "Yrrel Monte"
+      }
+    },
+    {
+      "user": {
+        "id": "100015827858913",
+        "validity": "Lifetime",
+        "name": "Lance Vetalecio"
+      }
+    },
+    {
+      "user": {
+        "id": "100026922728144",
+        "validity": "Lifetime",
+        "name": "Larry Ramos"
+      }
+    },
+    {
+      "user": {
+        "id": "100072757897854",
+        "validity": "Lifetime",
+        "name": "Karl Santos"
+      }
+    }
+    ],
+  "ivip": [
+    {
+      "user": {
+        "id": "100012826661680",
+        "validity": "Lifetime",
+        "name": "Justine"
+      }
+    },
+    {
+      "user": {
+        "id": "100080985141972",
+        "validity": "Lifetime",
+        "name": "Bot"
+      }
+    },
+    {
+      "user": {
+        "id": "100027100503432",
+        "validity": "Lifetime",
+        "name": "Gekim"
+      }
+    },
+    {
+      "user": {
+        "id": "100007909449910",
+        "validity": "Lifetime",
+        "name": "Salvador"
+      }
+    },
+    {
+      "user": {
+        "id": "100017375410153",
+        "validity": "Lifetime",
+        "name": "Jean"
+      }
+    },
+    {
+      "user": {
+        "id": "100010066387203",
+        "validity": "Lifetime",
+        "name": "Millicent"
+      }
+    }
+  ],
+  "commands": [
+    {
+      "name": "ai",
+      "description": "The ai will answer your question",
+      "plan": "free"
+    },
+    {
+      "name": "beshiefy",
+      "description": "Beshiefy 🤸‍♀️ your 🤸‍♀️ word.",
+      "plan": "free"
+    },
+    {
+      "name": "grammarize",
+      "description": "Correct your grammar",
+      "plan": "basic"
+    },
+    {
+      "name": "genspot",
+      "description": "Generate and create spotify account",
+      "plan": "vip"
+    },
+    {
+      "name": "help",
+      "description": "Show all the available command",
+      "plan": "free"
+    },
+    {
+      "name": "imgsearch",
+      "description": "Search for immage from the given query",
+      "plan": "basic"
+    },
+    {
+      "name": "info",
+      "description": "Show bot information",
+      "plan": "free"
+    },
+    {
+      "name": "myplan",
+      "description": "Show your current plan",
+      "plan": "free"
+    },
+    {
+      "name": "mlprof",
+      "description": "Check ign and all avatar & albums. A maximum of 50 avatars/album only.",
+      "plan": "free"
+    },
+    {
+      "name": "mlprofv2",
+      "description": "Same to mlprof but you will add you id and server /mlprof 123456 1234.",
+      "plan": "free"
+    },
+    {
+      "name": "plans",
+      "description": "Show plans information",
+      "plan": "free"
+    },
+    {
+      "name": "playmp3",
+      "description": "Play music in mp3 format.",
+      "plan": "free"
+    },
+    {
+      "name": "playmp4",
+      "description": "Play music in mp4 format.",
+      "plan": "free"
+    },
+    {
+      "name": "plus_ai",
+      "description": "Advanced ai powered by gpt3",
+      "plan": "vip"
+    },
+    {
+      "name": "quotes",
+      "description": "Send random quotes",
+      "plan": "free"
+    },
+    {
+      "name": "summarize",
+      "description": "Summarize your message",
+      "plan": "basic"
+    },
+    {
+      "name": "ttdl",
+      "description": "Download tiktok video without watermark and high quality",
+      "plan": "free"
+    },
+    {
+      "name": "unscrable",
+      "description": "Generate words from your given text",
+      "plan": "free"
+    },
+    {
+      "name": "unsent",
+      "description": "Unsent message sent by bot",
+      "plan": "vip"
+    }
+  ],
+  "openaikey": "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"
+}

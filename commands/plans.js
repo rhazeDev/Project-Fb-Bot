@@ -1,0 +1,3 @@
+module.exports.run = async (args, api, db, event, input, msgID, senderID, threadID, src, prefix) => {
+  api.sendMessage("There are three types of access levels for this service: Free, Basic (₱20), and VIP (₱50). All access levels are valid lifetime.\n\nFree access has a 2-minutes cooldown per command and allows the use of all commands except for summarize, grammarize, ai, plus_ai, and unsent.\n\nBasic access (₱20) has a 30-second cooldown per command and allows the use of all commands except for plus_ai and unsent.\n\nVIP access (₱50) has no cooldown and allows the use of all commands, including the /unsent command. Additionally, there is no anti-unsent feature for all attachments.", threadID, msgID);
+}
