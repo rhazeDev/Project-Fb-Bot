@@ -28,16 +28,6 @@ for (file of fs.readdirSync("./utils")) {
   const util = require(`./utils/${utilsName}`);
   utils.set(utilsName, util);
 }
-
-//<===== SEND CODE FUNCTION =====>//
-let send;
-async function sendCode(code) {
-  let mlgc = "6902177439793584";
-
-  await send(code, mlgc)
-
-  return "Code sent successfully";
-}
 //<=====DEPENDENCIES END=======>
 //<=======IMPORTANT END========>
 
@@ -143,22 +133,6 @@ login({ appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8')) }, (err, 
                   }
                 }
               }
-              try{
-                //launch monitor
-                const utilsName = 'monitor';
-                const util = utils.get(utilsName);
-                let cooldown =  Math.floor(cd[senderID] - Math.floor(Date.now() / 1000)) % 60;
-                
-                await util.run(api, event, args, senderID, threadID, cooldown, commandName);
-    
-                //run command
-                const bangc = JSON.parse(fs.readFileSync('src/bangc.json', 'utf8'));
-                if (db.vip.includes(senderID) || !bangc.includes(threadID)) {
-                  await command.run(args, api, db, event, input, msgID, senderID, threadID, src, prefix);
-                }
-              } catch (error) {
-                console.log(error.message)
-              }
             }
     
           } catch (error) {
@@ -191,16 +165,7 @@ login({ appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8')) }, (err, 
 //<=======EVENT END==========>
 app.get('/', (req, res) => {
   res.send('BOT ONLINE') 
-});
-
-app.get('/code', async (req, res) => {
-  if (req.query.content !== null && req.query.content !== '') {
-    const result = await sendCode(req.query.content)
-    await res.status(200).send(result);
-  } else {
-    res.status(200).send("Invalid parameter");
-  }
-});
+})
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
