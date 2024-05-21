@@ -11,7 +11,7 @@ const db = JSON.parse(fs.readFileSync('database.json', 'utf8'));
 
 let msgs = {}
 let cd = {}
-let msgdb = JSON.parse(fs.readFileSync('.src/messages.json', 'utf8'))
+let msgdb = JSON.parse(fs.readFileSync('./src/messages.json', 'utf8'))
 
 // Define commands as a new Map
 const commands = new Map();
